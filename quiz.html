@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<title></title>
+</head>
+<body>
+		<div id="content">
+			<header>
+				<h1>Emma Campbell</h1>
+			</header>
+			<nav id="main-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</nav>
+			<main class="contain">
+			<p>
+				<label for="question-one">Where do we link java to html?</label>
+					<select id="question-one">
+						<option value="incorrect">Before main opening tag</option>
+						<option value="correct">Before body ending tag</option>
+						<option value="incorrect">After doctype tag</option>
+						<option value="incorrect">Anywhere in the HTML</option>
+					</select>
+			</p>
+			<p>
+				<label for="question-two">How do we access classes in CSS?</label>
+					<select id="question-two">
+						<option value="!">!</option>
+						<option value="correct">.</option>
+						<option value="#">#</option>
+						<option value="$">$</option>
+					</select>
+			</p>
+			<p>
+				<label for="question-three">How do we access IDs in CSS?</label>
+					<select id="question-three">
+						<option>!</option>
+						<option>.</option>
+						<option value="correct">#</option>
+						<option>$</option>
+					</select>
+			</p>
+			<p>
+				<label for="question-four">How do we comment out in CSS?</label>
+					<select id="question-four">
+						<option value="correct">/* */</option>
+						<option>+/ /+</option>
+						<option>#. .#</option>
+						<option>$\ \$</option>
+					</select>
+			</p>
+			<button id="btn-grade" onclick="showGrade()">Grade</button>
+			<p id="results">
+			</p>
+			</main>
+			<footer>
+				<p>&copy My Copywrite</p>
+			</footer>
+		</div>
+		<script src="script.js"></script>
+</body>
+</html>

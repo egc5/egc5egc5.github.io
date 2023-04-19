@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<title></title>
+</head>
+<body>
+		<div id="content">
+			<header>
+				<h1>Emma Campbell</h1>
+			</header>
+			<nav id="main-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</nav>
+			<main class="contain">
+				<h2>Directions</h2>
+					<h3>Science and Technology Center</h3>
+						<p>1513 Lakeland Dr</p>
+						<p>Jackson, Missouri, 39216</p>
+				<h2>Map</h2>
+					<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.089960460058!2d-80.98653929999999!3d34.0415634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8af8087a80e17%3A0xeda572f6fd5026d4!2sLakeland%20Dr%2C%20Forest%20Acres%2C%20SC%2029204!5e0!3m2!1sen!2sus!4v1680019012098!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+				<h2>Contact Me</h2>
+				<div id="contactme">
+					<form class="form" action="https://api.web3forms.com/submit" method="POST">
+
+						<input type="hidden" name="access_key" value="90a8fcae-b0b3-4515-a4b1-a3da1e77415a">
+					<label for="txt-name">Name:</label>
+						<input type="text" name="name" required id="txt-name"><br>
+					<label for="txt-email">Email:</label>
+						<input type="email" name="email" required id="txt-email"><br>
+					<br><label for="txt-message">Message:</label>	
+						<textarea name="message" required id="txt-message"></textarea>
+						<input type="hidden" name="redirect" value="https://web3forms.com/success">
+					<br>
+						<button type="submit">Submit Form</button>
+
+					</form>
+				</div>
+			</main>
+			<footer>
+				<p>&copy My Copywrite</p>
+			</footer>
+		</div>
+		<script src="script.js"></script>
+</body>
+</html>
